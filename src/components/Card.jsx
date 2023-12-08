@@ -13,9 +13,11 @@ export default function Card(props) {
       </div>
 
       <div className="text-center mt-7">
-        <p className="font-bold text-2xl capitalize">{review.name}</p>
+        <p className="font-bold text-2xl capitalize tracking-wide">
+          {review.name}
+        </p>
       </div>
-      <div className="text-center mt-7">
+      <div className="text-center">
         <p className="text-violet-300 uppercase text-sm">{review.job}</p>
       </div>
       <div className="text-violet-400 mx-auto mt-5">

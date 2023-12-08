@@ -30,7 +30,7 @@ const Testimonials = (props) => {
     });
   }
   return (
-    <div>
+    <div className="w-[85vw] md:w-[700px] bg-white flex flex-col justify-center items-center mt-10 p-10 transition-all duration-100 hover:shadow-md">
       <Card review={props.reviews[index]}></Card>
 
       <div className="flex text-3xl mt-5 gap-3 text-violet-400 font-bold mx-auto">
@@ -47,7 +47,7 @@ const Testimonials = (props) => {
           <FiChevronRight></FiChevronRight>
         </button>
       </div>
-      <div>
+      <div className="mt-5">
         <button
           className="bg-violet-400 hover:bg-violet-500 transition-all duration-200 cursor-pointer px-10 py-2 rounded-md font-bold text-white text-lg "
           onClick={surpriseHandler}
